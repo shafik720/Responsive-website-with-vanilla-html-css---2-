@@ -15,7 +15,7 @@ body{
 .navbar-section{
     background: url(images/banner-bg.png) no-repeat;
     box-sizing: border-box;
-    height: 960px;
+    min-height: 100vh;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -29,7 +29,7 @@ body{
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    padding: 30px 30px;
+    padding: 15px 30px;
     border-radius: 50px;
     position: relative; 
     z-index: 10;
@@ -44,6 +44,7 @@ body{
 .navbar-right ul li a{
     text-decoration: none;
     color: black;
+    letter-spacing: 0.35px;  
 }
 
 .banner-details {
