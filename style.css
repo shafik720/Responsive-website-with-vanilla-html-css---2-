@@ -65,9 +65,42 @@ body{
     border-radius: 10px;
     display: inline-block;
 }
-
-
-
+/*------------------------------ Banner Card  -----------------------------------------------*/
+.banner-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 150px; 
+}
+.banner-card{
+    background: white;
+    margin: 20px;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px; 
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.banner-card span{
+    background: #8261EE;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    transition: 0.7s;  
+}
+.banner-card:hover span{
+    background: #E43C2F;
+}
 
 
 
