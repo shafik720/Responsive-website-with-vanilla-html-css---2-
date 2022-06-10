@@ -197,6 +197,7 @@ body{
         color: rgb(153, 149, 149);
         font-size: 1.4em; 
         line-height: 35px;
+        text-align: center;
     }
     #discussion-image2{
         text-align: center;
