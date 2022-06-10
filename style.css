@@ -65,7 +65,7 @@ body{
     border-radius: 10px;
     display: inline-block;
 }
-/*------------------------------ Banner Card  -----------------------------------------------*/
+/*------------------------------ Banner Card starts here  -----------------------------------------------*/
 .banner-cards{
     display: flex;
     justify-content: center;
@@ -101,9 +101,36 @@ body{
 .banner-card:hover span{
     background: #E43C2F;
 }
+/*------------------------------ Banner Card ends here  -----------------------------------------------*/
 
-
-
+/*------------------------------ Discussion starts here  -----------------------------------------------*/
+.disscuss-section{
+    margin-top: 120px; 
+}
+.discussion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+.discussion .discussion-image{
+    width: 50%; 
+}
+.disscussion-details{
+    width: 50%; 
+    color: rgb(153, 149, 149);
+    font-size: 1.4em; 
+    line-height: 35px;
+}
+.disscuss-section hr{
+    margin: 50px 0;
+}
+.disscussion-details h2{
+    color: black;
+}
+#discussion-image2{
+    text-align: right;
+}
 
 
 
@@ -125,7 +152,7 @@ body{
 /* For mobile:  */
 @media only screen and (max-width:767px){
     .fixed-container{
-        width: 100%;
+        width: 98%;
         margin: auto;
     }
 
@@ -150,6 +177,31 @@ body{
         font-size: 1.5em;
         font-weight: normal;
     }
+
+    /* discussion section  */
+    .disscuss-section{
+        margin-top: 130px; 
+    }
+    .discussion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .discussion .discussion-image{
+        width: 100%; 
+        text-align: center;
+    }
+    .disscussion-details{
+        width: 90%; 
+        color: rgb(153, 149, 149);
+        font-size: 1.4em; 
+        line-height: 35px;
+    }
+    #discussion-image2{
+        text-align: center;
+    }
+    
 }
 
 
@@ -195,6 +247,30 @@ body{
         text-align: center; 
         margin: auto;
         margin-top: 60px;  
+    }
+
+    /* discussion section  */
+    .disscuss-section{
+        margin-top: 130px; 
+    }
+    .discussion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .discussion .discussion-image{
+        width: 100%; 
+        text-align: center;
+    }
+    .disscussion-details{
+        width: 90%; 
+        color: rgb(153, 149, 149);
+        font-size: 1.4em; 
+        text-align: center;
+    }
+    #discussion-image2{
+        text-align: center;
     }
 
 }
