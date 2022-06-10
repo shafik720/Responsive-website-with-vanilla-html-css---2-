@@ -30,8 +30,8 @@ body{
     align-items: center;
     position: absolute;
     padding: 15px 30px;
-    border-radius: 50px;
     position: relative; 
+    border-radius: 50px;
     z-index: 10;
 }
 .navbar-right ul{
@@ -48,6 +48,120 @@ body{
 }
 
 .banner-details {
-    color: black;
+    color: white;
+    text-align: center;
     margin-top: 100px; 
+}
+.banner-details h1{
+    font-size: 2.5em;
+    font-weight: normal;
+}
+.banner-details a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(120deg,#E84033, #d38f3c);
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- Media Query -----------------------: */
+/* For mobile:  */
+@media only screen and (max-width:767px){
+    .fixed-container{
+        width: 100%;
+        margin: auto;
+    }
+
+    .navbar-right{
+        display: none; 
+    }
+    .menubar{
+        width: 90%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .banner-details{
+        width: 90%;
+        text-align: center; 
+        margin: auto;
+        margin-top: 30px;  
+    }
+    .banner-details h1{
+        font-size: 1.5em;
+        font-weight: normal;
+    }
+}
+
+
+/* For tablet:  */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .fixed-container{
+        width: 100%;
+        margin: auto;
+    }
+    .menubar{
+        width: 95%; 
+        background: white;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 5px;
+        border-radius: 50px;
+        position: relative; 
+        z-index: 10;
+    }
+    .navbar-right{
+        width: 100%;
+        padding-right: 35px;
+    }
+    .navbar-right ul li a{
+        text-decoration: none;
+        color: black;
+        letter-spacing: 0px;  
+    }
+    .navbar-right ul li{
+        list-style: none;
+        margin-left: 10px;
+    }
+    .navbar-right ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-details{
+        width: 90%;
+        text-align: center; 
+        margin: auto;
+        margin-top: 60px;  
+    }
+
 }
