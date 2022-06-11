@@ -99,7 +99,7 @@ body{
     transition: 0.7s;  
 }
 .banner-card:hover span{
-    background: #E43C2F;
+    background: #F9569A;
 }
 /*------------------------------ Banner Card ends here  -----------------------------------------------*/
 
@@ -131,14 +131,56 @@ body{
 #discussion-image2{
     text-align: right;
 }
+/*------------------------------ Discussion Ends here  -----------------------------------------------*/
 
 
-
-
-
-
-
-
+/*------------------------------ Work Process Section starts here  -----------------------------------------------*/
+.work-process-section{
+    text-align: center;
+    background: url(images/work-process-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    padding-top:5px ;
+    margin-top: 30px;
+    min-height: 600px;
+}
+.work-headings{
+    color: white;
+    margin-top: 100px;  
+}
+.work-headings h2{
+    font-size: 2.0em; 
+}
+.work-headings p{
+    font-weight: 200;  
+}
+.work-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.work-cards{
+    background: white;
+    padding: 15px 2px;
+    margin:20px 10px;
+    border-radius: 15px;
+    width: 150px; 
+    box-shadow: 0 15px 20px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.work-cards:hover{
+    transform: translateY(-20px); 
+}
+.work-cards span{
+    color: #9559DC;
+    font-size: 1.8em;
+    display: block;
+    margin-top: 10px;
+}
 
 
 
