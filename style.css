@@ -181,6 +181,65 @@ body{
     display: block;
     margin-top: 10px;
 }
+/*------------------------------ Work Process Section ends here  -----------------------------------------------*/
+
+/*------------------------------ Feedback Section starts here  -----------------------------------------------*/
+
+.feedback-sections{
+    padding-top: 5px; 
+    padding-bottom: 25px;
+}
+.feedback-headings{
+    text-align: center;
+    margin: 70px 0px; 
+}
+.feedback-headings h2{
+    font-size: 1.8em;
+}
+.feedback-headings p{
+    font-size: 1.6em; 
+    color: grey;
+}
+.feedback-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.feedback-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.2);
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.feedback-card img{
+    width: 32px;
+    height: 32px; 
+}
+
+.feedback-author{
+    transition: 0.5s; 
+}
+.feedback-author h4{
+    color: #F9569A;
+    margin-top: -10px; 
+}
+.feedback-card:hover .feedback-author{
+    transform: translateX(20px);
+}
+
+
+
+
+
+
+
 
 
 
