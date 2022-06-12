@@ -183,7 +183,7 @@ body{
 }
 /*------------------------------ Work Process Section ends here  -----------------------------------------------*/
 
-/*------------------------------ Feedback Section starts here  -----------------------------------------------*/
+/*---------------------------- Feedback Section starts here -----------------------------------*/
 
 .feedback-sections{
     padding-top: 5px; 
@@ -233,11 +233,93 @@ body{
 .feedback-card:hover .feedback-author{
     transform: translateX(20px);
 }
+/*---------------------------- Feedback Section ends here -----------------------------------*/
 
 
-
-
-
+/*---------------------------- Pricing Plan Section starts here -----------------------------------*/
+pricing-plan-section{
+    background: #F2F2FE; 
+}
+.pricing-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-card{
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    width: 320px;
+    padding: 30px 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; 
+}
+.pricing-card div{
+    background: #F9569A;
+    width: 60%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: 25px 0px;
+}
+#price2{
+    background:#9559DC;
+    width: 60%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: 25px 0px;
+}
+#price3{
+    background:#C90100; 
+    width: 60%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: 25px 0px;
+}
+.pricing-card a{
+    text-decoration: none;
+    background: #F9569A;
+    width: 40%;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin: 25px 0px;
+    padding: 15px 10px;
+}
+#purchase2{
+    text-decoration: none;
+    background:#9559DC;
+    width: 40%;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin: 25px 0px;
+    padding: 15px 10px;
+}
+#purchase3{
+    text-decoration: none;
+    background:#C90100;
+    width: 40%;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin: 25px 0px;
+    padding: 15px 10px;
+}
+.pricing-card div span{
+    font-size: 1.6em;
+}
+.pricing-card p{
+    margin: 7px;
+}
+.pricing-card del{
+    margin: 7px;
+}
 
 
 
