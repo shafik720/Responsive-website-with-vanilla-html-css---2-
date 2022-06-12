@@ -320,9 +320,44 @@ pricing-plan-section{
 .pricing-card del{
     margin: 7px;
 }
+/*---------------------------- Pricing Plan Section Ends here -----------------------------------*/
 
 
-
+/*---------------------------- Show Case Section starts here -----------------------------------*/
+.show-section{
+    background: url(images/fun-facts-bg.png);
+    min-height: 400px; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.show-sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+.show{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.show h2{
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+.show h5{
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+}
 
 
 
@@ -385,7 +420,16 @@ pricing-plan-section{
     #discussion-image2{
         text-align: center;
     }
-    
+
+
+    .show-sections{
+        margin: 40px 0px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 40px;
+    }
 }
 
 
@@ -455,6 +499,15 @@ pricing-plan-section{
     }
     #discussion-image2{
         text-align: center;
+    }
+
+    .show-sections{
+        margin: 40px 0px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 40px;
     }
 
 }
