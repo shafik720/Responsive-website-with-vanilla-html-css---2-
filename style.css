@@ -347,6 +347,11 @@ pricing-plan-section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.show:hover{
+    transform: translateY(-20px); 
 }
 .show h2{
     font-size: 3em;
