@@ -469,7 +469,7 @@ pricing-plan-section{
 .form-1-1 input:focus ~ span{
     transform: translateY(-18px) translateX(5px) ;
     padding: 0px;
-    background: white;
+    background: #F2F2FE;
     font-size: 15px;
     color: #007ACC;
 }
@@ -511,6 +511,8 @@ footer{
 .footer-icons{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 30px; 
     margin-top: 40px; 
