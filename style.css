@@ -442,8 +442,7 @@ pricing-plan-section{
 }
 .form-1{
     display: flex;
-   align-items: center;
-   column-gap: 30px; 
+   column-gap: 40px; 
 }
 .form-1-1{
    position: relative;
