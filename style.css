@@ -649,6 +649,12 @@ footer{
         column-gap: 0px; 
         row-gap: 15px; 
     }
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+        margin-top: 40px; 
+    }
 }
 
 
