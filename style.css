@@ -363,6 +363,68 @@ pricing-plan-section{
     margin: 0;
     padding: 0;
 }
+/*---------------------------- Show Case Section ends here -----------------------------------*/
+
+/*---------------------------- Blog Section starts here -----------------------------------*/
+.blog-headings{
+    text-align: center;
+}
+.blog-headings h1{
+    font-size: 2em;
+}
+.blog-headings p{
+    font-size: 1.3em;
+    color: grey;
+}
+.blog-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.blog-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px; 
+    margin: 15px;
+    text-align: center;
+}
+.blog-cards p{
+    margin-top: -10px;
+}
+.blog-cards a{
+    display: inline-block;
+    background: #8261EE; 
+    text-decoration: none; 
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.blog-cards a:hover{
+    background: #be1b5f;
+}
+.blog-cards img{
+    width: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
